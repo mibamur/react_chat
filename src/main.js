@@ -7,6 +7,17 @@ import makeRoutes from './routes'
 import Root from './containers/Root'
 import configureStore from './redux/configureStore'
 
+// // export all ReactMDL into global so we can generate demos
+// import * as ReactMDL from 'react-mdl';
+// for (const component in ReactMDL) {
+//     if (ReactMDL.hasOwnProperty(component)) {
+//         global[component] = ReactMDL[component];
+//     }
+// }
+//
+// window.React = React;
+// window.ReactDOM = ReactDOM;
+
 // Configure history for react-router
 const browserHistory = useRouterHistory(createBrowserHistory)({
   basename: __BASENAME__

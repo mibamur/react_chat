@@ -31,14 +31,6 @@ export class HomeView extends React.Component<void, Props, void> {
   render () {
     return (
       <div className='container text-center'>
-        <div className='row'>
-          <div className='col-xs-2 col-xs-offset-5'>
-            <img className={classes.duck}
-              src={DuckImage}
-              alt='This is a duck, because Redux.' />
-          </div>
-        </div>
-        <h1>Welcome to the React Redux Starter Kit</h1>
         <h2>
           Sample Counter:
           {' '}
